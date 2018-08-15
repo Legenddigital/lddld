@@ -3,9 +3,21 @@
 
 [[projects]]
   branch = "master"
+  name = "github.com/Legenddigital/base58"
+  packages = ["."]
+  revision = "a4687319920bab1c541d5258adb33bae272ff2ff"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/Legenddigital/slog"
+  packages = ["."]
+  revision = "fc479e23ea80f48bdb5e9608fce2e7e3fb470be7"
+
+[[projects]]
   name = "github.com/aead/siphash"
   packages = ["."]
-  revision = "e404fcfc888570cadd1610538e2dbc89f66af814"
+  revision = "83563a290f60225eb120d724600b9690c3fb536f"
+  version = "v1.0.1"
 
 [[projects]]
   branch = "master"
@@ -23,7 +35,6 @@
   revision = "4720035b7bfd2a9bb130b1c184f8bbe41b6f0d0f"
 
 [[projects]]
-  branch = "master"
   name = "github.com/btcsuite/goleveldb"
   packages = [
     "leveldb",
@@ -39,16 +50,16 @@
     "leveldb/table",
     "leveldb/util"
   ]
-  revision = "7834afc9e8cd15233b6c3d97e12674a31ca24602"
+  revision = "3fd0373267b6461dbefe91cef614278064d05465"
+  version = "v1.0.0"
 
 [[projects]]
-  branch = "master"
   name = "github.com/btcsuite/snappy-go"
   packages = ["."]
-  revision = "0bdef8d067237991ddaa1bb6072a740bc40601ba"
+  revision = "b3db38edf0a9a11a115eb6b022d8c946024a9ac0"
+  version = "v1.0.0"
 
 [[projects]]
-  branch = "master"
   name = "github.com/btcsuite/winsvc"
   packages = [
     "eventlog",
@@ -58,30 +69,19 @@
     "winapi"
   ]
   revision = "f8fb11f83f7e860e3769a08e6811d1b399a43722"
+  version = "v1.0.0"
 
 [[projects]]
-  branch = "master"
   name = "github.com/davecgh/go-spew"
   packages = ["spew"]
-  revision = "8991bc29aa16c548c550c7ff78260e27b9ab7c73"
+  revision = "346938d642f2ec3594ed81d874461961cd0faa76"
+  version = "v1.1.0"
 
 [[projects]]
-  branch = "master"
   name = "github.com/dchest/blake256"
   packages = ["."]
   revision = "dee3fe6eb0e98dc774a94fc231f85baf7c29d360"
-
-[[projects]]
-  branch = "master"
-  name = "github.com/Legenddigital/base58"
-  packages = ["."]
-  revision = "56c501706f00d9e1cfacee19a27117e12da24734"
-
-[[projects]]
-  branch = "master"
-  name = "github.com/Legenddigital/slog"
-  packages = ["."]
-  revision = "fbd821ef791ba2b8ae945f5d44f4e49396d230c5"
+  version = "v1.0.0"
 
 [[projects]]
   name = "github.com/gorilla/websocket"
@@ -92,20 +92,20 @@
 [[projects]]
   name = "github.com/jessevdk/go-flags"
   packages = ["."]
-  revision = "96dc06278ce32a0e9d957d590bb987c81ee66407"
-  version = "v1.3.0"
+  revision = "c6ca198ec95c841fdb89fc0de7496fed11ab854e"
+  version = "v1.4.0"
 
 [[projects]]
-  branch = "master"
   name = "github.com/jrick/bitset"
   packages = ["."]
   revision = "06eae37cdf93c699c0503c23f998167ce841974c"
+  version = "v1.0.0"
 
 [[projects]]
-  branch = "master"
   name = "github.com/jrick/logrotate"
   packages = ["rotator"]
   revision = "a93b200c26cbae3bb09dd0dc2c7c7fe1468a034a"
+  version = "v1.0.0"
 
 [[projects]]
   branch = "master"
@@ -114,7 +114,7 @@
     "ripemd160",
     "ssh/terminal"
   ]
-  revision = "88942b9c40a4c9d203b82b3731787b672d6e809b"
+  revision = "de0752318171da717af4ce24d0a2e8626afaeb11"
 
 [[projects]]
   branch = "master"
@@ -123,11 +123,11 @@
     "unix",
     "windows"
   ]
-  revision = "13d03a9a82fba647c21a0ef8fba44a795d0f0835"
+  revision = "4e1fef5609515ec7a2cee7b5de30ba6d9b438cbf"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "746f7a4be4e049bc47a6d29b4fdb85c908c7da9e1983f856b26b69a218bfae80"
+  inputs-digest = "aabf8b8874947bd8b5cbb9fc71565b8217d7476bd44c91fcdd5b4ee2b8f20568"
   solver-name = "gps-cdcl"
   solver-version = 1
