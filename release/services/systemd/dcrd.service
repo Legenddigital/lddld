@@ -1,0 +1,13 @@
+[Unit]
+Description=Legenddigital Full Node
+
+[Service]
+Type=simple
+User=lddld
+Group=lddld
+WorkingDirectory=/var/lddld
+ExecStart=/opt/Legenddigital/bin/lddld --appdata=/var/lddld
+Restart=on-abnormal
+
+[Install]
+WantedBy=multi-user.target
