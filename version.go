@@ -27,6 +27,8 @@ const (
 	appMajor uint = 1
 	appMinor uint = 3
 	appPatch uint = 0
+	appMin 	 uint = 0
+	appMax 	 uint = 100
 )
 
 var (
